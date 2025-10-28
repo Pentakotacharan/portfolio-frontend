@@ -208,7 +208,7 @@ function App() {
               Full Stack Developer
             </h2>
             <p className="text-lg text-slate-400 max-w-md mb-8">
-              I build accessible, pixel-perfect digital experiences for the web.
+              I build accessible, pixel-perfect digital experiences for the web and mobile.
             </p>
 
             {/* Navigation - Desktop */}
@@ -294,7 +294,7 @@ function App() {
                 Here are a few technologies I've been working with recently:
               </p>
               <ul className="grid grid-cols-2 gap-2 mt-4 text-sm">
-                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'TailwindCSS', 'Next.js', 'Express.js'].map((tech) => (
+                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'TailwindCSS', 'React-Native','Expo', 'Express.js'].map((tech) => (
                   <li key={tech} className="flex items-center">
                     <span className="text-teal-400 mr-2">▹</span>
                     {tech}
@@ -517,7 +517,8 @@ function App() {
           <footer className="pb-16">
             <p className="text-sm text-slate-400">
               Built with <span className="text-teal-400">React</span> and{' '}
-              <span className="text-teal-400">Tailwind CSS</span>. Inspired by{' '}
+              <span className="text-teal-400">Tailwind CSS</span>
+              {/* . Inspired by{' '}
               <a
                 href="https://brittanychiang.com"
                 target="_blank"
@@ -525,7 +526,7 @@ function App() {
                 className="text-slate-200 hover:text-teal-400 transition-colors"
               >
                 Brittany Chiang
-              </a>
+              </a> */}
               .
             </p>
           </footer>
